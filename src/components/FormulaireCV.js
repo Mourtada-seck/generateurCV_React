@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import Header from '../components/Header';
 
 
 function FormulaireCV() {
@@ -15,6 +16,7 @@ function FormulaireCV() {
     theme: 'clair'
 
   });
+  const [logoUrl] = useState('path/to/your/SeckLabs.png');
   
   const generatePDF = () => {
   const cvElement = document.getElementById('cv-preview');
@@ -71,9 +73,6 @@ function FormulaireCV() {
 );
 
 
-
-
-
   const handleSubmit = (e) => {
     e.preventDefault();
     // Backend plus tard
@@ -81,6 +80,14 @@ function FormulaireCV() {
   };
 
   return (
+      <div className="container">
+      <Header 
+        photoPreview={photoPreview} 
+        formData={formData} 
+        logoUrl={logoUrl} 
+        themeClass="bg-light" 
+      />
+      {/* mon formulaire */}
     <div className="container mt-5">
       <h2 className="mb-4 text-center">Création de CV</h2>
       <div className="row">
@@ -171,6 +178,9 @@ function FormulaireCV() {
 
       </div>
     </div>
+    </div>
+      
+
   );
   
 }

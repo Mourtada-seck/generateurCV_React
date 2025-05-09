@@ -47,3 +47,16 @@
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
+
+#cv-header {
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+#cv-header h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+}
+
