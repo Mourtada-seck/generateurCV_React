@@ -9,6 +9,7 @@ function FormulaireCV() {
     nom: '',
     prenom: '',
     email: '',
+    adresse: '', 
     telephone: '',
     competence: '',
     experience: '',
@@ -109,12 +110,15 @@ function FormulaireCV() {
 
             <div className="mb-3">
               <label>Email</label>
-              
               <input type="email" name="email" onChange={handleChange} className="form-control" required/>
             </div>
             <div className="mb-3">
               <label>Téléphone</label>
               <input type="number" name="telephone" onChange={handleChange} className="form-control" required/>
+            </div>
+            <div className="mb-3">
+              <label>Adresse</label>
+              <input type="text" name="adresse" onChange={handleChange} className="form-control" required/>
             </div>
             <div className="mb-3">
               <label>Compétences</label>
@@ -144,7 +148,7 @@ function FormulaireCV() {
         {/* Prévisualisation */}
       <div className="col-md-6">
           <div id="cv-preview" className={`border p-4 rounded shadow-sm ${getThemeClass()}`} style={{ wordWrap: 'break-word', overflowWrap: 'break-word', whiteSpace: 'pre-wrap' }}>
-              <h3 className="text-center">Aperçu du CV</h3>
+              {/* <h3 className="text-center">Aperçu du CV</h3> */}
               <div className="row">
                 {/* Colonne gauche : Photo + Infos personnelles */}
               <div className="col-md-4 text-center border-end pe-3">
@@ -158,6 +162,7 @@ function FormulaireCV() {
                 <h4 className="fw-bold">{formData.prenom} {formData.nom}</h4>
                 <p className="mb-1"><i className="bi bi-envelope-fill me-2 text-primary"></i><strong>Email:</strong> {formData.email}</p>
                 <p className="mb-1"> <i className="bi bi-telephone-fill me-2 text-primary"></i><strong>Téléphone:</strong> {formData.telephone}</p>
+                <p className="mb-1"> <i className="fa-solid fa-location-dot me-2 text-primary"></i><strong>Adresse:</strong> {formData.adresse}</p>
               </div>
 
               {/* Colonne droite : contenu du CV */}
