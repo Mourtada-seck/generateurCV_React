@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/generateurCV_React/static/css/main.219e9366.css",
+    "main.js": "/generateurCV_React/static/js/main.64df0202.js",
+    "static/js/977.246aee44.chunk.js": "/generateurCV_React/static/js/977.246aee44.chunk.js",
+    "static/js/732.ac0376f3.chunk.js": "/generateurCV_React/static/js/732.ac0376f3.chunk.js",
+    "static/js/453.e5487b64.chunk.js": "/generateurCV_React/static/js/453.e5487b64.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/generateurCV_React/static/media/bootstrap-icons.ff25a7ff93ea67f144c5.woff",
+    "static/media/bootstrap-icons.woff2?": "/generateurCV_React/static/media/bootstrap-icons.ca961065e092080ca3f5.woff2",
+    "index.html": "/generateurCV_React/index.html",
+    "main.219e9366.css.map": "/generateurCV_React/static/css/main.219e9366.css.map",
+    "main.64df0202.js.map": "/generateurCV_React/static/js/main.64df0202.js.map",
+    "977.246aee44.chunk.js.map": "/generateurCV_React/static/js/977.246aee44.chunk.js.map",
+    "732.ac0376f3.chunk.js.map": "/generateurCV_React/static/js/732.ac0376f3.chunk.js.map",
+    "453.e5487b64.chunk.js.map": "/generateurCV_React/static/js/453.e5487b64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.219e9366.css",
+    "static/js/main.64df0202.js"
+  ]
+}
