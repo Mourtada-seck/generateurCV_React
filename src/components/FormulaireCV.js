@@ -97,7 +97,7 @@ function FormulaireCV() {
           <form onSubmit={handleSubmit} className="bg-light p-4 rounded shadow-sm">
             <div className="mb-3">
               <label>Nom</label>
-              <input type="text" name="nom" onChange={handleChange} className="form-control" required/>
+              <input type="text" name="nom" onChange={handleChange} className="form-control" required autoFocus/>
             </div>
             <div className="mb-3">
               <label>Prénom</label>
@@ -114,7 +114,7 @@ function FormulaireCV() {
             </div>
             <div className="mb-3">
               <label>Téléphone</label>
-              <input type="number" name="telephone" onChange={handleChange} className="form-control" required/>
+              <input type="number" name="telephone" onChange={handleChange} className="form-control" inputMode='numeric' required/>
             </div>
             <div className="mb-3">
               <label>Adresse</label>
