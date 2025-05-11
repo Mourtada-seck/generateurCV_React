@@ -19,7 +19,7 @@ const Header = () => {
       </div>
 
       <img
-        src="/images/monImage.jpeg" // ma photo
+        src="/images/mon-image.jpg" // ma photo
         alt="Mouhamadou Mourtada"
         className="creator-photo"
       />
