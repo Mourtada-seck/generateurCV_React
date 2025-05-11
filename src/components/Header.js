@@ -7,19 +7,19 @@ const Header = () => {
     <div id="cv-header" className="header-container d-flex justify-content-between align-items-center">
       <div className="d-flex align-items-center">
         <img
-          src="/images/SeckLabs.png" // mon logo 
+          src="/images/logo.png" // mon logo 
           alt="mon logo"
           className="logo"
         />
         <div className="ms-3">
           <h1 className="creator-name">Mouhamadou Mourtada Seck</h1>
-          <p className="creator-role"><i class="fa-solid fa-code text-primary"></i> Développeur Full Stack</p>
+          <p className="creator-role"><i className="fa-solid fa-code text-primary"></i> Développeur Full Stack</p>
           <small className='text-primary slogan'>Votre partenaire en technologie web et mobile</small>
         </div>
       </div>
 
       <img
-        src="/images/img.jpeg" // ma photo
+        src="/images/monImage.jpeg" // ma photo
         alt="Mouhamadou Mourtada"
         className="creator-photo"
       />

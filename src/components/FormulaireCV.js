@@ -17,7 +17,7 @@ function FormulaireCV() {
     theme: 'clair'
 
   });
-  const [logoUrl] = useState('path/to/your/SeckLabs.png');
+  const [logoUrl] = useState('path/to/your/logo.png');
   
   const generatePDF = () => {
   const cvElement = document.getElementById('cv-preview');
@@ -44,7 +44,6 @@ function FormulaireCV() {
     reader.readAsDataURL(file);
   }
 };
-
 
 
   const handleChange = (e) => {
